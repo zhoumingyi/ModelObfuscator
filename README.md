@@ -1,6 +1,6 @@
-# code275
+# ModelObfuscator
 
-Code for the submission code275
+This is protptype tool of paper: Modelobfuscator: Obfuscating Model Information to Protect Deployed ML-Based Systems on ISSTA2023.
 
 ## 1*. Preparation A: get the environment by Docker (recommend)
 
