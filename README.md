@@ -31,9 +31,9 @@ Enter the project:
 
 (0) Download the code:
 
-`git clone https://github.com/AnonymousAuthor000/code275.git`
+`git clone https://github.com/AnonymousAuthor000/ModelObfuscator.git`
 
-`cd code275`
+`cd ModelObfuscator`
 
 (1) The dependency can be found in `environment.yml`. To create the conda environment:
 
