@@ -31,7 +31,7 @@ Enter the project:
 
 (0) Download the code:
 
-`git clone https://github.com/AnonymousAuthor000/ModelObfuscator.git`
+`git clone https://github.com/zhoumingyi/ModelObfuscator.git`
 
 `cd ModelObfuscator`
 
