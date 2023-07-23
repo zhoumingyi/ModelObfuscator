@@ -18,7 +18,7 @@ docker pull anonymousauthor000/code275:v3.1
 Note that if it cause permission errors, please try: 
 
 ```
-sudo docker pull anonymousauthor000/code2536:v2
+sudo docker pull anonymousauthor000/code275:v3.1
 ```
 
 (1) Enter the environment:
@@ -30,7 +30,7 @@ docker run -i -t anonymousauthor000/code275:v3.1 /bin/bash
 Note that if it cause permission errors, please try: 
 
 ```
-docker run -i -t anonymousauthor000/code2536:v2 /bin/bash
+sudo docker run -i -t anonymousauthor000/code275:v3.1 /bin/bash
 ```
 
 Enter the project:
