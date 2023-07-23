@@ -12,25 +12,25 @@ Wo provide two options to use our prototype tool:
 (0) Download the Docker Image:
 
 ```
-docker pull anonymousauthor000/code275:v3.1
+docker pull zhoumingyigege/modelobfuscator:latest
 ```
 
 Note that if it cause permission errors, please try: 
 
 ```
-sudo docker pull anonymousauthor000/code275:v3.1
+sudo docker pull zhoumingyigege/modelobfuscator:latest
 ```
 
 (1) Enter the environment:
 
 ```
-docker run -i -t anonymousauthor000/code275:v3.1 /bin/bash
+docker run -i -t zhoumingyigege/modelobfuscator:latest /bin/bash
 ```
 
 Note that if it cause permission errors, please try: 
 
 ```
-sudo docker run -i -t anonymousauthor000/code275:v3.1 /bin/bash
+sudo docker run -i -t zhoumingyigege/modelobfuscator:latest /bin/bash
 ```
 
 Enter the project:
