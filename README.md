@@ -36,7 +36,7 @@ sudo docker run -i -t anonymousauthor000/code275:v3.1 /bin/bash
 Enter the project:
 
 ```
-cd code275/
+cd Code275/
 ```
 
 (2) Activate the conda environment: 
