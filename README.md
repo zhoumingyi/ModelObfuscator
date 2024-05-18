@@ -1,40 +1,42 @@
 # ModelObfuscator
 
-This is protptype tool of paper: Modelobfuscator: Obfuscating Model Information to Protect Deployed ML-Based Systems on ISSTA2023.
+This is protptype tool of paper: **Modelobfuscator: Obfuscating Model Information to Protect Deployed ML-Based Systems on ISSTA2023**.
 
-Abstract:
+**Abstract**:
 More and more edge devices and mobile apps are leveraging deep learning (DL) capabilities. Deploying such models on devices – referred to as on-device models – rather than as remote cloud-hosted services, has gained popularity because it avoids transmitting user’s data off of the device and achieves high response time. However, on-device models can be easily attacked, as they can be accessed by unpacking corresponding apps and the model is fully exposed to attackers. Recent studies show that attackers can easily generate white-box-like attacks for an on-device model or even inverse its training data. To protect on-device models from white-box attacks, we propose a novel technique called model obfuscation. Specifically, model obfuscation hides and obfuscates the key information – structure, parameters and attributes – of models by renaming, parameter encapsulation, neural structure obfuscation obfuscation, shortcut injection, and extra layer injection. We have developed a prototype tool ModelObfuscator to automatically obfuscate on-device TFLite models. Our experiments show that this proposed approach can dramatically improve model security by significantly increasing the difficulty of parsing models’ inner information, without in- creasing the latency of DL models. Our proposed on-device model obfuscation has the potential to be a fundamental technique for on-device model deployment
 
-## 1*. Preparation A: get the environment by Docker (recommend)
+Wo provide two options to use our prototype tool:
+
+## 1*. Preparation A: run by Docker (recommend)
 
 (0) Download the Docker Image:
 
 ```
-docker pull anonymousauthor000/code275:v3.1
+docker pull zhoumingyigege/modelobfuscator:latest
 ```
 
 Note that if it cause permission errors, please try: 
 
 ```
-sudo docker pull anonymousauthor000/code2536:v2
+sudo docker pull zhoumingyigege/modelobfuscator:latest
 ```
 
 (1) Enter the environment:
 
 ```
-docker run -i -t anonymousauthor000/code275:v3.1 /bin/bash
+docker run -i -t zhoumingyigege/modelobfuscator:latest /bin/bash
 ```
 
 Note that if it cause permission errors, please try: 
 
 ```
-docker run -i -t anonymousauthor000/code2536:v2 /bin/bash
+sudo docker run -i -t zhoumingyigege/modelobfuscator:latest /bin/bash
 ```
 
 Enter the project:
 
 ```
-cd code275/
+cd Code275/
 ```
 
 (2) Activate the conda environment: 
