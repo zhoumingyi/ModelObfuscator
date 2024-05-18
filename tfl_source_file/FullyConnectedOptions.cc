@@ -40,8 +40,6 @@ namespace ops {
 namespace custom {
 namespace randopname {
 
-namespace {
-
 filter_raw=;
 
 bias_raw=;
@@ -155,8 +153,6 @@ TfLiteStatus PopulateLedgerData(const TfLiteSparsity* sparsity,
   }
   return kTfLiteOk;
 }
-
-}  // namespace
 
 // This file has four implementations of FullyConnected
 enum KernelType {
